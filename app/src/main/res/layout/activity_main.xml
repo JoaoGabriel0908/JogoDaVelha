@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/background"
+        android:fontFamily="@font/ribeye_marrow"
+        android:paddingVertical="15dp"
+        android:text="Jogo da Velha"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:src="@drawable/velha" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:width="330dp"
+        android:height="35dp"
+        android:background="@drawable/retanguloborda"
+        android:fontFamily="@font/righteous"
+        android:gravity="center"
+        android:text="Escolha o modo de Jogo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <Button
+        android:text="VS"
+        android:textSize="36dp"
+        android:textColor="@color/roxoClaro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:paddingHorizontal="50dp"
+        android:width="333dp"
+        android:height="100dp"
+        android:background="@drawable/botao_personalizado"
+        android:drawableLeft="@drawable/pessoas2"
+        android:drawableRight="@drawable/computador_pessoal2"
+        android:drawable="@drawable/vs"/>
+
+    <Button
+        android:text="VS"
+        android:textSize="36dp"
+        android:textColor="@color/roxoClaro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="333dp"
+        android:height="100dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/botao_personalizado"
+        android:drawableLeft="@drawable/pessoas2"
+        android:drawableRight="@drawable/pessoas2"
+        android:drawable="@drawable/vs"
+        android:paddingHorizontal="50dp"/>
+
+</LinearLayout>

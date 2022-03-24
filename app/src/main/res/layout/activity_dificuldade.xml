@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/background"
+        android:fontFamily="@font/ribeye_marrow"
+        android:paddingVertical="15dp"
+        android:text="Jogo da Velha"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        />
+
+
+    <Button
+        android:text="VS"
+        android:textSize="36dp"
+        android:textColor="@color/roxoClaro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:width="333dp"
+        android:height="100dp"
+        android:background="@drawable/botao_personalizado"
+        android:drawable="@drawable/vs"
+        android:drawableLeft="@drawable/pessoas2"
+        android:drawableRight="@drawable/computador_pessoal2"
+        android:paddingHorizontal="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="330dp"
+        android:height="35dp"
+        android:background="@drawable/retanguloborda"
+        android:fontFamily="@font/righteous"
+        android:gravity="center"
+        android:text="Escolha seu símbolo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="300dp"
+        android:minHeight="70dp"
+        android:background="@drawable/botao_personalizado"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:paddingHorizontal="20dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/x3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="OU"
+            android:textSize="36dp"/>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ellipse4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:width="330dp"
+            android:height="35dp"
+            android:background="@drawable/retanguloborda"
+            android:fontFamily="@font/righteous"
+            android:gravity="center"
+            android:text="Escolha a Dificuldade"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="150dp"
+            android:height="40dp"
+            android:text="Fácil"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/retangulo_dificuldade"
+            android:paddingTop="2dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/ribeye_marrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="150dp"
+            android:height="40dp"
+            android:text="Médio"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/retangulo_dificuldade"
+            android:paddingTop="2dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/ribeye_marrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="150dp"
+            android:height="40dp"
+            android:text="Impossível"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/retangulo_dificuldade"
+            android:paddingTop="2dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/ribeye_marrow"/>
+
+    </LinearLayout>
+
+</LinearLayout>
