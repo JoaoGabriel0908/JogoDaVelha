@@ -10,19 +10,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoJogoDaVelha">
         <activity
+            android:name=".deu_velha"
+            android:exported="false" />
+        <activity
+            android:name=".vencedor_jogador"
+            android:exported="false" />
+        <activity
+            android:name=".Vencedor"
+            android:exported="false" />
+        <activity
+            android:name=".jogo_computador2"
+            android:exported="false" />
+        <activity
+            android:name=".jogo_computador"
+            android:exported="false" />
+
+        <activity
+            android:name=".jogoMultiplayer"
+            android:exported="false" />
+        <activity
             android:name=".DificuldadeActivity"
             android:exported="false" />
         <activity
-            android:name=".splash"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
 
         <meta-data

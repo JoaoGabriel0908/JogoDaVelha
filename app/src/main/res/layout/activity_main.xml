@@ -43,6 +43,7 @@
         android:textSize="24dp" />
 
     <Button
+        android:id="@+id/playerComputer"
         android:text="VS"
         android:textSize="36dp"
         android:textColor="@color/roxoClaro"
@@ -58,6 +59,7 @@
         android:drawable="@drawable/vs"/>
 
     <Button
+        android:id="@+id/playerPlayer"
         android:text="VS"
         android:textSize="36dp"
         android:textColor="@color/roxoClaro"
