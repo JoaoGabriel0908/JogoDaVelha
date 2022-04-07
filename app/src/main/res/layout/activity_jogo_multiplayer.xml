@@ -118,55 +118,69 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:minHeight="300dp"
-        android:layout_marginTop="60dp"
-        android:layout_margin="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="80dp"
         android:background="@drawable/imagemjogo"
-        android:paddingTop="30dp"
-        android:orientation="vertical">
+        android:height="300dp"
+        android:orientation="vertical"
+        android:paddingTop="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginBottom="50dp">
+            android:layout_marginBottom="50dp"
+            android:gravity="center">
 
             <ImageButton
+                android:id="@+id/but1"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp"
+                android:onClick="btClick" />
 
             <ImageButton
+                android:onClick="btClick"
+                android:id="@+id/but2"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp" />
 
             <ImageButton
+                android:onClick="btClick"
+                android:id="@+id/but3"
                 android:layout_width="64dp"
-                android:layout_height="64dp"
-                />
+                android:layout_height="64dp" />
 
         </LinearLayout>
 
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginBottom="50dp">
+            android:layout_marginBottom="50dp"
+            android:gravity="center">
 
             <ImageButton
+                android:onClick="btClick"
+                android:id="@+id/but4"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp" />
 
             <ImageButton
+                android:onClick="btClick"
+                android:id="@+id/but5"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp" />
 
             <ImageButton
+                android:onClick="btClick"
+                android:id="@+id/but6"
                 android:layout_width="64dp"
-                android:layout_height="64dp"/>
+                android:layout_height="64dp" />
 
         </LinearLayout>
 
@@ -176,18 +190,24 @@
             android:gravity="center">
 
             <ImageButton
+                android:onClick="btClick"
+                android:id="@+id/but7"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp" />
 
             <ImageButton
+                android:onClick="btClick"
+                android:id="@+id/but8"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp" />
 
             <ImageButton
+                android:onClick="btClick"
+                android:id="@+id/but9"
                 android:layout_width="64dp"
-                android:layout_height="64dp"/>
+                android:layout_height="64dp" />
 
         </LinearLayout>
 
