@@ -17,14 +17,11 @@ class vencedor_jogador : AppCompatActivity() {
             val intent = Intent(this, jogoMultiplayer::class.java)
             startActivity(intent)
         }
-        telaInicial.setOnClickListener(){
+        telaInicial.setOnClickListener() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
-        val intent = Intent(this, DificuldadeActivity::class.java)
-
-        if(che)
     }
 
 }

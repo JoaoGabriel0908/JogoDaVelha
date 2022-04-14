@@ -65,7 +65,7 @@ class jogoMultiplayer : AppCompatActivity() {
             player1.add(cellId)
             playerAtual = 2
         } else{
-            btnSelecionado.setImageResource(R.drawable.ellipse4)
+            btnSelecionado.setImageResource(R.drawable.o)
             player2.add(cellId)
             playerAtual = 1
         }

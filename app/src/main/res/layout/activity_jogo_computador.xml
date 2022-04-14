@@ -132,18 +132,24 @@
             android:layout_marginBottom="40dp">
 
             <ImageButton
+                android:id="@+id/but1"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp"
+                android:onClick="btnClick" />
 
             <ImageButton
+                android:id="@+id/but2"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp"
+                android:onClick="btnClick"/>
 
             <ImageButton
+                android:id="@+id/but3"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
+                android:onClick="btnClick"
                 />
 
         </LinearLayout>
@@ -156,18 +162,24 @@
             android:layout_marginBottom="50dp">
 
             <ImageButton
+                android:id="@+id/but4"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp"
+                android:onClick="btnClick"/>
 
             <ImageButton
+                android:id="@+id/but5"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp"
+                android:onClick="btnClick"/>
 
             <ImageButton
+                android:id="@+id/but6"
                 android:layout_width="64dp"
-                android:layout_height="64dp"/>
+                android:layout_height="64dp"
+                android:onClick="btnClick"/>
 
         </LinearLayout>
 
@@ -177,18 +189,24 @@
             android:gravity="center">
 
             <ImageButton
+                android:id="@+id/but7"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp"
+                android:onClick="btnClick"/>
 
             <ImageButton
+                android:id="@+id/but8"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginRight="40dp"/>
+                android:layout_marginRight="40dp"
+                android:onClick="btnClick"/>
 
             <ImageButton
+                android:id="@+id/but9"
                 android:layout_width="64dp"
-                android:layout_height="64dp"/>
+                android:layout_height="64dp"
+                android:onClick="btnClick"/>
 
         </LinearLayout>
 
